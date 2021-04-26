@@ -1,0 +1,38 @@
+@import "partials/variables";
+@import "partials/homepage";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.home {
+
+
+
+  header {
+
+    background-color: $bg-black;
+
+    .nav {
+
+      color:$bg-first;
+
+      ul {
+        color: $bg-first;
+      }
+
+      i {
+        font-size: 15px;
+        color: $bg-secondary;
+      }
+      button{
+        color: $bg-first;
+      }
+
+    }
+
+}
+}
